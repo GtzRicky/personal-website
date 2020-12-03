@@ -1,0 +1,120 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* 
+======================Banner================
+ */
+
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(95, 95, 95, 38%);
+    background-image: url("https://pbs.twimg.com/media/Em1bwdLXUAECL15?format=jpg&name=large");
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.button-primary {
+    background-color: rgb(14, 14, 133);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* 
+=============== Header ==================
+ */
+.header-top {
+    position: relative;
+}
+.header {
+    margin: 0;
+    position: sticky;
+ }
+.navigation {
+    background-color: #1a1a1a;
+    background-image: url("https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+}
+.nav-item {
+    font-size: 1.4rem;
+    margin: auto;
+    text-decoration: none;
+    color: #e6e6e6;
+    list-style-type: none;
+    transform: scale(1);
+    transition: all 1.3s;
+}
+
+/*
+=============== Section Services ========
+ */
+
+.bg-light {
+    background: #ecebeb;
+}
+
+.card {
+    background-color: white;
+    padding: 1rem;
+    height: 100%;
+    transform: scale(1);
+    transition: all 1s;
+    text-align: justify;
+}
+
+.bg-light {
+    background: #f8f8f8;
+}
+
+/* .space-cards {
+    padding: 10px;
+} */
+/*
+=============== Helpers =================
+*/
+
+.text-primary {
+    color: rgb(14, 14, 133);
+    padding: 3%;
+    text-align: justify;
+}
+
+.text-arrange{
+    margin-top: 4%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.title-3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.title-4 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
