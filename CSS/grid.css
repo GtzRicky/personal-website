@@ -22,6 +22,10 @@
         background: rgb(14, 14, 133);
     }
 
+    .space-cards {
+        padding: 10px;
+    }
+
     .col-md-1 {
         width: 8.33%;
     }
@@ -86,6 +90,10 @@
         background: rgb(14, 14, 133);
     }
 
+    .space-cards {
+        padding: 10px;
+    }
+
     .col-1 {
         width: 8.33%;
     }
@@ -148,6 +156,10 @@
         transition: all 1s;
         color: white;
         background: rgb(14, 14, 133);
+    }
+
+    .space-cards {
+        padding: 10px;
     }
 
     .lg-dv-wrap {
@@ -232,5 +244,7 @@
         width: 100%;
     }
 
-
+    .space-cards {
+        padding: 10px;
+    }
 }
